@@ -6,7 +6,7 @@ $pass = $_POST['pass'];
 $name_complete = $_POST['name_complete'];
 
 $query = mysqli_query($host,"insert into user values(
-    '',
+    null,
     '$user',
     '$pass',
     '$name_complete',
